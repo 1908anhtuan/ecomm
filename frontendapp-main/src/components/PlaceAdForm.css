@@ -1,0 +1,110 @@
+.form-container {
+  background-color: #f8f8f8;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 90px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.step1,
+.step2,
+.step3 {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.step1 div,
+.step2 div,
+.step3 div {
+  margin-bottom: 10px;
+}
+
+.step1 label,
+.step2 label,
+.step3 label {
+  font-weight: bold;
+}
+
+.step1 select,
+.step2 input,
+.step2 textarea,
+.step3 input,
+.step3 textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.step1 .error,
+.step2 .error,
+.step3 .error,
+.form-container .error {
+  color: red;
+}
+
+.step1 button,
+.step2 button,
+.step3 button,
+.step4 button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.step1 button:hover,
+.step2 button:hover,
+.step3 button:hover,
+.step4 button:hover {
+  background-color: #0056b3;
+}
+
+.step4 {
+  display: flex;
+  
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 80px;
+  
+}
+
+.form-container2 {
+  margin-right: 50px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* .step4view {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+} */
+.spacer {
+  flex-grow: 5; 
+}

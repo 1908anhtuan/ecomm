@@ -1,0 +1,121 @@
+.product-details {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+}
+
+.product-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.product-description {
+  margin-top: 10px;
+}
+
+.bid-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bid-button:hover {
+  background-color: #45a049;
+}
+
+.buynow-button {
+  background-color: #0958cf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.buynow-button:hover {
+  background-color: #2f91d3;
+}
+
+.chat-button {
+  background-color: #aa0e0e;
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.chat-button:hover {
+  background-color: #2f91d3;
+}
+
+.signin-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.chat-popup {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  z-index: 9999;
+  padding: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.chat-container {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+}
+
+.close-button {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #cc0000;
+}

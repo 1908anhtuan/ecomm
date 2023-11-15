@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #1a4bb6;
+  padding: 10px;
+}
+
+.navbar-ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-ul li {
+  margin-right: 10px;
+}
+
+.navbar-ul-li-a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar-ul-li-a:hover {
+  background-color: #555;
+}
+
+.navbar-ul-li-a.logout {
+  margin-left: auto;
+}
+.account-name {
+  float: right;
+  font-weight: bold;
+  color: #fff;
+}
+.account-name:hover {
+  background-color: #6a46be;
+  cursor: pointer;
+}

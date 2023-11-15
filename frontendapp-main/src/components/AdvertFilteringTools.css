@@ -1,0 +1,47 @@
+.filteringContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .combobox {
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 400px;
+    display: flex;
+  }
+  
+  .categoryButtons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+  }
+  
+  .categoryButton {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 8px 12px;
+    background-color: #b0a9e9;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .categoryButton.active,
+.categoryButton:hover {
+  background-color: rgb(48, 120, 226);
+  color: white;
+}
+
+.filterLabel {
+    display: inline-block;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #f8f8f8;
+  }
